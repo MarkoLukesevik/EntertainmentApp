@@ -1,0 +1,21 @@
+.play {
+  width: 117px;
+  height: 48px;
+  background-color: rgba(255, 255, 255, 0.404);
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.play p {
+  font-family: Outfit;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.7px;
+}

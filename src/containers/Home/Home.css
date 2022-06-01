@@ -1,0 +1,28 @@
+.trending{
+    margin: 150px 0px 0px 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    gap: 30px;
+}
+.trending h2{
+    font-family: Outfit;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: white;
+}
+
+.trending-items{
+    height: 100%;
+    display: flex;
+}
+
+@media only screen and (max-width: 992px) {
+    .trending {
+        margin: 200px 0px 0px 25px;
+    }
+
+}

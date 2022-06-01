@@ -1,0 +1,14 @@
+.bookmark-icon {
+  position: absolute;
+  z-index: 2;
+  top: 5px;
+  right: 5px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #161d2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
