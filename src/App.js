@@ -77,7 +77,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/EntertainmentApp/bookmarks"
+            path="/bookmarks"
             element={
               <Bookmarks
                 data={bookmarked}
