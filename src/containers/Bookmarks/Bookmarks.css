@@ -1,3 +1,9 @@
-.bookmarked{
-    margin-top: 150px;
+.bookmarked {
+  margin-top: 150px;
+}
+
+@media only screen and (max-width: 992px) {
+  .bookmarked {
+    margin: 200px 25px;
+  }
 }

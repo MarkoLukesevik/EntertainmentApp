@@ -59,10 +59,12 @@ export default function Bookmarks({
       <Content
         title="Bookmarked Movies"
         renderAll={renderAllBookmarkedMovies}
+        bookmarkedMovies={bookmarkedMovies.length}
       />
       <Content
         title="Bokmarked TV Series"
         renderAll={renderAllBookmarkedTvShows}
+        bookmarkedTVShows={bookmarkedTVShows.length}
       />
     </div>
   );

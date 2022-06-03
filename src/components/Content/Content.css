@@ -1,27 +1,30 @@
-.content{
-    margin: 50px 0px 50px 200px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.content {
+  margin: 50px 0px 50px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
-.content h2{
-    font-family: Outfit;
-    font-size: 32px;
-    font-weight: 300;
-    line-height: 40px;
-    letter-spacing: -0.5px;
-    color: white;
+.content h2 {
+  font-family: Outfit;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  color: white;
 }
-.content-items{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 50px;
-    flex-wrap: wrap;
+.content-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.bookmark-message {
+  color: rgba(255, 255, 255, 0.685);
 }
 
 @media only screen and (max-width: 992px) {
-    .content{
-        margin: 50px 25px;
-    }
+  .content {
+    margin: 50px 25px;
+  }
 }
