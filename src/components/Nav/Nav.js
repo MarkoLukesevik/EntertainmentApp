@@ -29,7 +29,9 @@ export default function Nav() {
             <NavLink
               style={({ isActive }) => {
                 return {
-                  color: isActive ? "#FC4747" : "",
+                  filter: isActive
+                    ? "invert(39%) sepia(62%) saturate(1303%) hue-rotate(328deg) brightness(98%) contrast(101%)"
+                    : "",
                 };
               }}
               className="nav-item"
